@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Augusto Boranga</title>
+    <script src="static/jquery-3.1.0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+    <link rel="icon" type="image/png" href="static/images/profile.png">
+</head>
+
+<body>
+    TAG_HEADER
+    <div id="full_content">
+        TAG_CONTENT
+    </div>
+    <script>
+        let dot = "<span class=\"dot\"></span>"
+        let separators = document.getElementsByClassName('section_divider');
+                
+        for (var i = 0; i < separators.length; i++) {
+            separators[i].innerHTML = dot.repeat(50);
+        }
+    </script>
+</body>

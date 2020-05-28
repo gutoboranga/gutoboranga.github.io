@@ -1,0 +1,21 @@
+{
+    "title": "Experiences",
+    "subtitle": "Places I've been",
+    "sections": [
+        {
+            "title": "Apple Developer Academy",
+            "subtitle": "february/2015 - december/2015",
+            "description": "O Apple Developer Academy (antes chamado BEPiD) é um programa com o objetivo de capacitar estudantes para a criação de aplicativos para iOS, desde o amadurecimento da ideia, passando pelo desenvolvimento em si e culminando na publicação do app na App Store."
+        },
+        {
+            "title": "globo.com",
+            "subtitle": "june/2016 - november/2017",
+            "description": "Comecei a estagiar na globo.com em 2016, na área de reprodução de vídeos na plataforma mobile. Trabalhei principalmente com Swift (iOS), Java e Kotlin (Android). Após, trabalhei com backend web em Python (especialmente framework tornado), na plataforma de publicação de conteúdo dos produtos da globo.com. Nesta época também tive experiência com Javascript no frontend."
+        },
+        {
+            "title": "CPD - UFRGS",
+            "subtitle": "august/2018 - november/2019",
+            "description": "No Centro de Processamento de Dados da UFRGS (CPD) tenho uma bolsa de desenvolvimento mobile. Aqui aprofundei ainda mais meus conhecimentos em iOS e aprendi mais a fundo sobre Android, bem como o uso de APIs. Além disso, tive uma breve experiência com Wordpress."
+        }
+    ]
+}

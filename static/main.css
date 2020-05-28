@@ -1,0 +1,345 @@
+@font-face {
+    font-family: 'OCR';
+    src: url("fonts/OCRAStd.otf");
+}
+
+head {
+    /*margin: 0px;*/
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    
+    line-height: 1.5;
+    padding: 4em 1em;
+    margin: 0 auto;
+    padding: 0;
+    
+    background-color: #F2F2F2;
+    background-size: 100%;
+}
+
+.header {
+    background-color: #0E1214;
+    width: 100%;
+    margin: 0 auto;
+    color: #212121;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.languageButton {
+    font-size: 18px;
+    color: white;
+    margin-left: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.languageButtonGroup {
+    position: absolute;
+    bottom: 10px;
+}
+
+h1 {
+    margin: 0px;
+    margin-top: 10px;
+    color: #424242;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #9E9E9E;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+h4 {
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 28px;
+    font-family: 'Roboto Mono', monospace;
+    color: #9C9C9C;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+p {
+    color: #424242;
+    font-size: 19px;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+a.button {
+    font-weight: 200;
+    font-size: 14px;
+    color: #6F6F6F;
+    text-decoration: none;
+    line-height: 40px;
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a.button-selected {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.topRightCorner {
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.myName {
+    font-family: 'Roboto Mono', monospace;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.myBriefDescription {
+    font-family: 'Roboto Mono', monospace;
+    color: #6F6F6F;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+a {
+    color: #35B3FF;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+li {
+    color: #424242;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.topButtonGroup {
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#full_content {
+    margin: 0 auto;
+    padding-top: 0;
+    margin-top: 0;
+    max-width: 50%;
+    padding-top: 50px;
+}
+
+.portfolioItemDiv {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+}
+
+.portfolioItemImageDiv {
+    width: 35%;
+}
+
+.portfolioItemTextDiv {
+    width: 68%;
+}
+
+.portfolioItemImage {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.code {
+    font-size: 14px;
+    font-family: courier;
+    color: #333;
+    background-color: #f2f7fe;
+    margin-top: 20px;
+    padding: 6px 6px 6px 14px;
+    border-left: 4px solid #0a9bf5;
+}
+
+.image {
+    padding:0px;
+    margin-top:20px;
+    max-width: 100%;
+}
+
+.imageDescription {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.contactContainer {
+    display: inline-flex;
+}
+
+.contactButton {
+    margin-top: 25px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+.contactButtonImage {
+    height: 100%;
+    width: 100%;
+}
+
+.camoResultImage {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.projectsImage {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.section_divider {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 12px;
+    color: #777;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.dot {
+    height: 4px;
+    width: 4px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#blankSpace {
+    padding-bottom: 100px;
+}
+
+#endPageIndicator {
+    height: 8px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#endPageSquare {
+    float: right;
+    background: #FF7474;
+    width: 8px;
+    height: 8px;
+    margin-bottom: 50px;
+}
+
+#little-circle {
+    background-color: white;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.profilePicture {
+    width: 90px;
+    height: 90px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+    .portfolioItemDiv {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        display: block;
+    }
+    
+    .portfolioItemTextDiv {
+        width: 100%;
+    }
+    
+    .portfolioItemImageDiv {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #full_content {
+        margin: 0 auto;
+        padding-top: 0;
+        margin-top: 0;
+        max-width: 80%;
+        padding-top: 50px;
+    }
+    
+    .topRightCorner {
+        position: relative;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        right: 0;
+    }
+    
+    .contactContainer {
+        justify-content: center;
+    }
+    
+    .contactButton {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+    
+    .myName {
+        margin-right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .myBriefDescription {
+        margin-right: 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "index": {
+        "title": "about",
+        "ref": "index.html"
+    },
+    "experiences": {
+        "title": "experiences",
+        "ref": "experiences.html"
+    },
+    "portfolio": {
+        "title": "portfolio",
+        "ref": "portfolio.html"
+    },
+    "personal_projects": {
+        "title": "personal projects",
+        "ref": "personal_projects.html"
+    }
+}

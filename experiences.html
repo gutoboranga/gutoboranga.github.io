@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Augusto Boranga</title>
+    <script src="static/jquery-3.1.0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+    <link rel="icon" type="image/png" href="static/images/profile.png">
+</head>
+
+<body>
+    <div class="header" align="center">
+    <div class="topRightCorner">
+        <div class="contactContainer">
+            <div class="contactButton"><a target="_blank" href="https://github.com/gutoboranga"><img class="contactButtonImage" src="static/images/icons/github-icon.png"></a></div>&emsp;
+            <div class="contactButton"><a href="mailto:guto.boranga@gmail.com"><img class="contactButtonImage" src="static/images/icons/mail-icon.png"></a></div>&emsp;
+            <div class="contactButton"><a target="_blank" href="https://www.linkedin.com/in/gutoboranga"><img class="contactButtonImage" src="static/images/icons/linkedin-icon.png"></a></div>
+        </div>
+        <div class="myName">
+            Augusto Boranga
+        </div>
+        <div class="myBriefDescription">
+            computer scientist<br>& mobile engineer
+        </div>
+    </div>
+    
+    <img class="profilePicture" src="static/images/profile.png">
+    <div class="topButtonGroup" align="center"><div align="center"><a class="button" href="index.html">about</a></div>&emsp;<div align="center"><a class="button button-selected" href="experiences.html">experiences</a><div id="little-circle"></div></div>&emsp;<div align="center"><a class="button" href="personal_projects.html">personal projects</a></div>&emsp;<div align="center"><a class="button" href="portfolio.html">portfolio</a></div>&emsp;</div>
+</div>
+    <div id="full_content">
+        <h1>Experiences</h1>
+<h4>Places I've been</h4>
+<div class="section_divider"></div>
+<h2>Apple Developer Academy</h2>
+<h4>february/2015 - december/2015</h4>
+O Apple Developer Academy (antes chamado BEPiD) é um programa com o objetivo de capacitar estudantes para a criação de aplicativos para iOS, desde o amadurecimento da ideia, passando pelo desenvolvimento em si e culminando na publicação do app na App Store.
+<div class="section_divider"></div>
+<h2>globo.com</h2>
+<h4>june/2016 - november/2017</h4>
+Comecei a estagiar na globo.com em 2016, na área de reprodução de vídeos na plataforma mobile. Trabalhei principalmente com Swift (iOS), Java e Kotlin (Android). Após, trabalhei com backend web em Python (especialmente framework tornado), na plataforma de publicação de conteúdo dos produtos da globo.com. Nesta época também tive experiência com Javascript no frontend.
+<div class="section_divider"></div>
+<h2>CPD - UFRGS</h2>
+<h4>august/2018 - november/2019</h4>
+No Centro de Processamento de Dados da UFRGS (CPD) tenho uma bolsa de desenvolvimento mobile. Aqui aprofundei ainda mais meus conhecimentos em iOS e aprendi mais a fundo sobre Android, bem como o uso de APIs. Além disso, tive uma breve experiência com Wordpress.
+<div class="section_divider"></div>
+
+    </div>
+    <script>
+        let dot = "<span class=\"dot\"></span>"
+        let separators = document.getElementsByClassName('section_divider');
+                
+        for (var i = 0; i < separators.length; i++) {
+            separators[i].innerHTML = dot.repeat(50);
+        }
+    </script>
+</body>
