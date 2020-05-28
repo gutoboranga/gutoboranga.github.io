@@ -1,21 +1,26 @@
 {
     "title": "Experiences",
-    "subtitle": "Places I've been",
+    "subtitle": "Places where I contributed and learnt a lot of cool stuff",
     "sections": [
         {
             "title": "Apple Developer Academy",
             "subtitle": "february/2015 - december/2015",
-            "description": "O Apple Developer Academy (antes chamado BEPiD) é um programa com o objetivo de capacitar estudantes para a criação de aplicativos para iOS, desde o amadurecimento da ideia, passando pelo desenvolvimento em si e culminando na publicação do app na App Store."
+            "description": "<a target=\"_blank\" href=\"http://www.bepid.com.br/poa/\">Apple Developer Academy</a>  (formerly known as <b>BEPiD</b>) is a program that aims to empower IT students to build <b>iOS</b> apps, from the research envolved in the idea maturarion, going through development itself and culminating in the proccess of publishing the app to App Store and promoting it.<br><br>This was my <b>first contact</b> with the iOS plataform as a developer, and it really hooked me."
         },
         {
             "title": "globo.com",
             "subtitle": "june/2016 - november/2017",
-            "description": "Comecei a estagiar na globo.com em 2016, na área de reprodução de vídeos na plataforma mobile. Trabalhei principalmente com Swift (iOS), Java e Kotlin (Android). Após, trabalhei com backend web em Python (especialmente framework tornado), na plataforma de publicação de conteúdo dos produtos da globo.com. Nesta época também tive experiência com Javascript no frontend."
+            "description": "I started my internship at <a target=\"_blank\" href=\"https://estag.globo.com/\">globo.com</a> in mid 2016, working in the team responsible for the <b>video player</b> component (mobile version), which would later be used in apps such as Globoplay and Globosat Play. Mostly, I worked with <b>Swift</b>, <b>Java</b> and <b>Kotlin</b>.<br><br>Afterwards, I rotated to the team responsible for the the main content publishing platform in globo.com. In this project, I worked with <b>Python</b>, in the context of backend web (mainly tornado framework). Back in the day, I also had some experience with <b>Javascript</b> in the frontend."
         },
         {
             "title": "CPD - UFRGS",
             "subtitle": "august/2018 - november/2019",
-            "description": "No Centro de Processamento de Dados da UFRGS (CPD) tenho uma bolsa de desenvolvimento mobile. Aqui aprofundei ainda mais meus conhecimentos em iOS e aprendi mais a fundo sobre Android, bem como o uso de APIs. Além disso, tive uma breve experiência com Wordpress."
+            "description": "I started working as an iOS developer in UFRGS Data Center (<a target=\"_blank\" href=\"https://www.ufrgs.br/cpd/\">Centro de Processamento de Dados</a>) by August 2018. I had the oportunity to continue learning about iOS development, expanded my experiences in Android, and had several learnings related to <b>UI</b> and <b>UX</b>. Besides, I had a brief experience with Wordpress."
+        },
+        {
+            "title": "Poatek",
+            "subtitle": "november/2019 - may/2020",
+            "description": "By November 2019, I took a next step in my Software Developer career: I started working full-time as an iOS engineer in <a target=\"_blank\" href=\"https://www.poatek.com\">Poatek</a>. There, I developed my skills in iOS development, by learning about <b>software architecture</b>, patterns and good practices.<br><br>Also, at Poatek, I got more experienced with <b>Agile methods</b> and was able to have more contact with the customer of the project I was working on, which allowed me to develop my <b>interpersonal skills</b>."
         }
     ]
 }
