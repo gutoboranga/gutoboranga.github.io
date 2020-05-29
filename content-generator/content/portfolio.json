@@ -1,6 +1,57 @@
 {
     "title": "Portfolio",
-    "subtitle": "",
+    "subtitle": "A bit of what I did on the places I've been",
     "sections": [
+        {
+            "title": "UFRGS Mobile",
+            "subtitle": "iOS • Android",
+            "description": "UFRGS Mobile is UFRGS's official mobile app. With it, students can see <b>news</b> about the university, check the status of <b>loaned books</b> and access the daily menu of the <b>university restaurant</b>. It is available both for <a target=\"_blank\" href=\"https://apps.apple.com/br/app/ufrgs-mobile/id1058897658\">iOS</a> and <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.cpd.ufrgsmobile&hl=pt_BR\">Android</a>.",
+            "extra_subtitle": "My contribution",
+            "extra_description": "Me and my teammates redesigned the whole application, aiming to <b>improve user experience</b> and optimize its <b>performance</b> in both systems: iOS and Android.",
+            "media_data": {
+                "source": "static/portfolio/ufrgs-mobile.gif",
+                "position": "right"
+            }
+        },
+        {
+            "title": "Brique UFRGS",
+            "subtitle": "iOS",
+            "description": "A mobile application for the several departments of UFRGS to be able to <b>exchange assets</b> not being used, such as furniture and gadgets.",
+            "extra_subtitle": "My contribution",
+            "extra_description": "I took part in the <b>whole development proccess</b> of the iOS version, from the layout decisions to the final implementation.",
+            "media_data": {
+                "source": "static/portfolio/brique.gif",
+                "position": "right"
+            }
+        },
+        {
+            "title": "UFRGS Mapas",
+            "subtitle": "iOS • Android",
+            "description": "This application helps UFRGS's students and workers to find the <b>location</b> and more <b>information</b> about all of the university's buildings. It's especially helpful for newcomers and visitants.",
+            "extra_subtitle": "My contribution",
+            "extra_description": "My part in this project was to <b>reformulate its layout</b> and correct some outdated data bugs.",
+            "media_data": {
+                "source": "static/portfolio/mapas.gif",
+                "position": "right"
+            }
+        },
+        {
+            "title": "Player Sample",
+            "subtitle": "iOS • Android",
+            "description": "On my internship at globo.com, I developed a functional application as a proof of concept to the mobile <b>video player</b> (the main product of my development team back then) used on globo.com's products.",
+            "extra_subtitle": "My contribution",
+            "extra_description": "I developed the application (for both platfoms, iOS and Android) following a pre-determined layout and using a compilation of videos of several types, to test all the functionalities available on the video player."
+        },
+        {
+            "title": "Loopy",
+            "subtitle": "iOS",
+            "description": "Loopy is a game developed for iPad with the goal of teaching basic concepts of <b>logics to kids</b>. It was created as the final project of BEPiD, along with two other friends. It isn't available on the App Store anymore.",
+            "extra_subtitle": "My contribution",
+            "extra_description": "I participated in the conception of the idea and theme of the game, the develoment of the game mechanics and the creation of some assets as well.",
+            "media_data": {
+                "source": "static/portfolio/loopy.png",
+                "position": "center"
+            }
+        }
     ]
 }
