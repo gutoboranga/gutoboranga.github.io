@@ -2,6 +2,7 @@
 
 import os
 import json
+import collections
 
 def read(filename):
     with open(filename) as file:
@@ -9,7 +10,7 @@ def read(filename):
 
 def read_json(filename):
     string = read(filename)
-    return json.loads(string)
+    return json.loads(string, object_pairs_hook=collections.OrderedDict)
     
 def write(filename, content):
     with open(filename, 'w+') as file:

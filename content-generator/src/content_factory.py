@@ -13,6 +13,10 @@ TAG_SECTION_MEDIA = "TAG_MEDIA"
 TAG_SECTION_EXTRA_SUBTITLE = "TAG_EXTRA_SUBTITLE"
 TAG_SECTION_EXTRA_DESCRIPTION = "TAG_EXTRA_DESCRIPTION"
 
+TAG_STYLE_TEXT = "TAG_STYLE_TEXT"
+TAG_STYLE_MEDIA = "TAG_STYLE_MEDIA"
+TAG_STYLE_CONTAINER = "TAG_STYLE_CONTAINER"
+
 # templates
 
 section_template = file_handler.read("../templates/content_section.html")
@@ -32,28 +36,41 @@ def make_header(json):
     template = file_handler.read("../templates/content_header.html")
     header = template.replace(TAG_SECTION_HEADER_TITLE, json["title"]) \
                     .replace(TAG_SECTION_HEADER_SUBTITLE, json["subtitle"])
-    return header + "\n" + make_divider()
+    return header + make_divider()
 
 def make_sections(sections):
     result = ""
     
-    for section in sections:
-        media = make_section_media(section)
-        extra = make_section_extra(section)
+    for i in range(0,len(sections)):
+        section = sections[i]
         
-        content = make_section_content(section, extra, media)
+        media = make_section_media(section)
+        text_style, media_style, container_style = make_style(section)
+        extra = make_section_extra(section)
+
+        # create the whole content using the pieces
+        content = make_section_content(section, extra, media, text_style, media_style, container_style)
                 
+        # concat with previous sections' html
         result += content
-        result += "\n{}\n".format(make_divider())
+        
+        # if is last, add blank space, else, a divider
+        if i == (len(sections) - 1):
+            result += make_empty_space()
+        else:
+            result += make_divider()
     
     return result
 
-def make_section_content(section, extra, media):
+def make_section_content(section, extra, media, text_style, media_style, container_style):
     return section_template.replace(TAG_SECTION_TITLE, section["title"]) \
                             .replace(TAG_SECTION_SUBTITLE, section["subtitle"]) \
                             .replace(TAG_SECTION_CONTENT, section["description"]) \
                             .replace(TAG_SECTION_EXTRA, extra) \
-                            .replace(TAG_SECTION_MEDIA, media)
+                            .replace(TAG_SECTION_MEDIA, media) \
+                            .replace(TAG_STYLE_TEXT, text_style) \
+                            .replace(TAG_STYLE_MEDIA, media_style) \
+                            .replace(TAG_STYLE_CONTAINER, container_style)
 
 def make_section_extra(section):
     keys = section.keys()
@@ -65,14 +82,47 @@ def make_section_extra(section):
     return ""
     
 def make_section_media(section):
-    if "media_data" in section.keys():
+    if has_media(section):
+        
         media_data = section["media_data"]
         
-        if "source" in media_data.keys() and "position" in media_data.keys():
-            pass
+        if media_data["type"] == "image":
+            return make_image(media_data)
+            
+        elif media_data["type"] == "video":
+            return make_video(media_data)
             
     return ""
+    
+def make_image(media_data):
+    return "<img class=\"image-" + \
+            media_data["position"] + \
+            "\" src=\"" + media_data["source"] + "\">"
+    
+def make_video(media_data):
+    return "<br><br><iframe src=\"" + media_data["source"] + "\" width=\"100%\" height=\"480\"></iframe>"
+
+def make_style(section):
+    text_style = media_style = "width: 100%;"
+    container_style = ""
+    
+    if has_media(section):
+        if section["media_data"]["position"] == "right":
+            text_style = "width: 68%;"
+            media_style = "width: 32%;"
+            container_style = "display: flex;"
+            
+    else:
+        media_style = "width: 0;"
+        
+    return (text_style, media_style, container_style)
 
 def make_divider():
-    return file_handler.read("../templates/content_section_divider.html")
+    divider = file_handler.read("../templates/content_section_divider.html")
+    return "\n{}\n".format(divider)
     
+def make_empty_space():
+    return "<div class=\"blankSpace\"></div"
+    
+def has_media(section):
+    return "media_data" in section.keys()

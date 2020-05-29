@@ -9,7 +9,8 @@
             "extra_subtitle": "My contribution",
             "extra_description": "Me and my teammates redesigned the whole application, aiming to <b>improve user experience</b> and optimize its <b>performance</b> in both systems: iOS and Android.",
             "media_data": {
-                "source": "static/portfolio/ufrgs-mobile.gif",
+                "source": "static/images/portfolio/ufrgs-mobile.gif",
+                "type": "image",
                 "position": "right"
             }
         },
@@ -20,7 +21,8 @@
             "extra_subtitle": "My contribution",
             "extra_description": "I took part in the <b>whole development proccess</b> of the iOS version, from the layout decisions to the final implementation.",
             "media_data": {
-                "source": "static/portfolio/brique.gif",
+                "source": "static/images/portfolio/brique.gif",
+                "type": "image",
                 "position": "right"
             }
         },
@@ -31,7 +33,8 @@
             "extra_subtitle": "My contribution",
             "extra_description": "My part in this project was to <b>reformulate its layout</b> and correct some outdated data bugs.",
             "media_data": {
-                "source": "static/portfolio/mapas.gif",
+                "source": "static/images/portfolio/mapas.gif",
+                "type": "image",
                 "position": "right"
             }
         },
@@ -49,7 +52,8 @@
             "extra_subtitle": "My contribution",
             "extra_description": "I participated in the conception of the idea and theme of the game, the develoment of the game mechanics and the creation of some assets as well.",
             "media_data": {
-                "source": "static/portfolio/loopy.png",
+                "source": "static/images/portfolio/loopy.png",
+                "type": "image",
                 "position": "center"
             }
         }

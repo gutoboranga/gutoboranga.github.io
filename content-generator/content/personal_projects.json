@@ -1,6 +1,71 @@
 {
     "title": "Personal projects",
-    "subtitle": "",
+    "subtitle": "Projects done by hobby, college assignments that gave cool results and hacks with friends :-)",
     "sections": [
+        {
+            "title": "Camouflage Image",
+            "subtitle": "Python",
+            "description": "This project was developed as the final assignment of <b>Fundamentalms of Image Processing</b> class.<br><br> The goal here was to implement a basic versão of the image camouflage method described on the paper <a target=\"_blank\" href=\"http://www.graphics.stanford.edu/~niloy/research/camouflage/camouflage_images_sig_10.html\">Camouflage Images</a> presented at SIGGRAPH 2010. The <a target=\"_blank\" href=\"https://github.com/gutoboranga/camouflage-image\">source code</a> is on github.<br><br>Some results:",
+            "media_data": {
+                "source": "static/images/camo/result_snow_cat.png",
+                "type": "image",
+                "position": "center"
+            }
+        },
+        {
+            "title": "Faustoteca",
+            "subtitle": "Swift",
+            "description": "An iOS app with the best lines of the brazilian TV presenter <b>Fausto Silva</b>, head of <a target=\"_blank\" href=\"https://gshow.globo.com/programas/domingao-do-faustao\">Domingão do Faustão</a>. It was a fun project done a while ago to develop my knowledge in <b>sound media</b> usage on iOS apps.<br><br>The <a target=\"_blank\" href=\"https://github.com/gutoboranga/faustoteca\">source code</a> is on github.",
+            "media_data": {
+                "source": "static/images/projects/faustoteca.gif",
+                "type": "image",
+                "position": "right"
+            }
+        },
+        {
+            "title": "Crazy Helicopter Pilot Simulator",
+            "subtitle": "Swift ∙ Python",
+            "description": "This project was developed as the final assignment of <b>Human–Computer Interaction</b> class.<br><br>It's an adaptation of a <b>3D helicopter simulator</b> (forked from an <a target=\"_blank\" href=\"https://github.com/eyesfocus/HeliCop\">open-source project</a>) where the user can control it through <b>hand movements</b>, captured with the <b>gyroscope</b> of an iPhone.<br><br>The <a target=\"_blank\" href=\"https://github.com/gutoboranga/crazy-helicopter-pilot-simulator\">source code</a> of the simulator adaptation and the mobile app is on github.",
+            "media_data": {
+                "source": "https://drive.google.com/file/d/1xnfWGreDUWJ9F62VZVSS7NSCgrjF4JaC/preview",
+                "type": "video",
+                "position": "center"
+            }
+        },
+        {
+            "title": "UFRGS History Plotter",
+            "subtitle": "Javascript ∙ R",
+            "description": "This project allows <b>UFRGS students</b> to have a different <b>visualization</b> of their academic journey, by plotting graphs from their <b>course history</b>, obtained in the university's website. The <a target=\"_blank\" href=\"https://github.com/gutoboranga/ufrgs-history-plotter\">source code</a> is on github.",
+            "media_data": {
+                "source": "static/images/projects/graph.jpg",
+                "type": "image",
+                "position": "center"
+            }
+        },
+        {
+            "title": "Memes top d+",
+            "subtitle": "Javascript ∙ Python",
+            "description": "This is a <b>pseudo-motivational meme</b> bot. Using a pre-determined list of image tags and <b>motivational quotes</b> websites, the bot searches for an image and a quote and creates a <b>random meme</b> with them. Then, it is posted automatically on the <a target=\"_blank\" href=\"https://www.facebook.com/memestopdemais/\">facebook page</a>.",
+            "media_data": {
+                "source": "static/images/projects/cavalo-gordo.png",
+                "type": "image",
+                "position": "center"
+            }
+        }
     ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
